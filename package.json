@@ -25,7 +25,7 @@
     "url": "https://github.com/joelxr/gerador-guia-spsadt"
   },
   "dependencies": {
-    "pdfkit": "0.7.0"
+    "pdfkit": "0.8.0"
   },
   "devDependencies": {
     "babel-cli": "6.26.x",
