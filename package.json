@@ -1,5 +1,5 @@
 {
-  "name": "gerador-spsdat",
+  "name": "gerador-guia-spsdat",
   "version": "1.0.0",
   "description": "Gerador de guias SP/SADT em PDF seguindo os padrões estipulados pela ANS (Agência Nacional de Saúde).",
   "main": "lib/index.js",
@@ -18,7 +18,11 @@
     "fontes": " run-s fontes:mkdir fontes:cp",
     "build:lib": "babel src -d lib",
     "build": "run-s clean fontes build:lib",
-    "prepublish": "npm run build"
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joelxr/gerador-guia-spsadt"
   },
   "dependencies": {
     "pdfkit": "0.7.0"
@@ -27,12 +31,12 @@
     "babel-cli": "6.26.x",
     "babel-preset-env": "1.7.x",
     "cpx": "1.5.x",
-    "eslint": "4.19.x",
-    "eslint-config-standard": "11.0.x",
-    "eslint-plugin-import": "2.12.x",
-    "eslint-plugin-node": "6.0.x",
-    "eslint-plugin-promise": "3.8.x",
-    "eslint-plugin-standard": "3.1.x",
+    "eslint": "6.0.x",
+    "eslint-config-standard": "12.0.x",
+    "eslint-plugin-import": "2.18.x",
+    "eslint-plugin-node": "9.1.x",
+    "eslint-plugin-promise": "4.2.x",
+    "eslint-plugin-standard": "4.0.x",
     "npm-run-all": "4.1.x",
     "rimraf": "2.6.x"
   }
