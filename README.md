@@ -1,7 +1,7 @@
-[![Build Status](https://travis-ci.org/joelxr/gerador-guia-spsdat.svg?branch=master)](https://travis-ci.org/joelxr/gerador-guia-spsdat)
-![npm bundle size](https://img.shields.io/bundlephobia/min/gerador-guia-spsdat.svg?style=popout)
-![GitHub](https://img.shields.io/github/license/joelxr/gerador-guia-spsdat.svg)
-![GitHub package.json version](https://img.shields.io/github/package-json/v/joelxr/gerador-guia-spsdat.svg)
+[![Build Status](https://travis-ci.org/joelxr/gerador-guia-spsdat.svg?branch=master)](https://travis-ci.org/joelxr/gerador-guia-spsadt)
+![npm bundle size](https://img.shields.io/bundlephobia/min/gerador-guia-spsadt.svg?style=popout)
+![GitHub](https://img.shields.io/github/license/joelxr/gerador-guia-spsadt.svg)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/joelxr/gerador-guia-spsadt.svg)
 
 # gerador-guia-spsadt
 
