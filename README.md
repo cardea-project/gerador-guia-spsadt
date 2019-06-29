@@ -1,3 +1,8 @@
+[![Build Status](https://travis-ci.org/joelxr/gerador-guia-spsdat.svg?branch=master)](https://travis-ci.org/joelxr/gerador-guia-spsdat)
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/gerador-guia-spsdat@1.0.0.svg?style=plastic)
+![GitHub](https://img.shields.io/github/license/joelxr/gerador-guia-spsdat.svg)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/joelxr/gerador-guia-spsdat.svg)
+
 # gerador-guia-sp-sadt
 
 Biblioteca para gerar guias SP/SADT no formato PDF para impressão.
