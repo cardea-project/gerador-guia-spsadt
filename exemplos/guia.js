@@ -3,6 +3,7 @@ var path = require('path')
 var pathDoArquivoPdf = path.join(__dirname, 'guia.pdf')
 
 var lib = require('../lib/index')
+
 var Gerador = lib.Gerador
 var Autorizacao = lib.Autorizacao
 var Beneficiario = lib.Beneficiario

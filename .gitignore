@@ -61,6 +61,5 @@ typings/
 .next
 
 lib/
-*.pdf
 *.png
 .DS_Store
