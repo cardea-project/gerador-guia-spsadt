@@ -142,7 +142,7 @@ Uma guia é composta pelos seguintes campos:
 
 ## Exemplo
 
-O arquivo [exemplos/guia.pf](exemplos/guia.pdf) é um exemplo de guia uma gerada.
+O arquivo [exemplos/guia.pdf](exemplos/guia.pdf) é um exemplo de guia uma gerada.
 
 ## Melhorias
 
