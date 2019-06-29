@@ -39,5 +39,15 @@
     "eslint-plugin-standard": "4.0.x",
     "npm-run-all": "4.1.x",
     "rimraf": "2.6.x"
-  }
+  },
+  "keywords": [
+    "brasil",
+    "guia",
+    "spsadt",
+    "sp/sadt",
+    "ans",
+    "convênio",
+    "pdf",
+    "pdfkit"
+  ]
 }
