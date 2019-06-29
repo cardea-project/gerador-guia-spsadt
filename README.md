@@ -154,3 +154,4 @@ O arquivo [exemplos/guia.pdf](exemplos/guia.pdf) é um exemplo de guia uma gerad
 - Usar `typescript` para garantir os tipos de todas as propriedades geradas.
 - Melhorar / otimizar o objeto da guia.
 - Testes unitários
+- Atulizar versão do PDFKit
