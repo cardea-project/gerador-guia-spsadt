@@ -136,6 +136,8 @@ class GeradorDePdf {
     this.campo(pdf, '14 - Nome do Contratado', this.guia.contratadoSolicitante.nome, x, y, larguraCampoNome)
     x += larguraCampoNome + distanciaEntreCampos
     this.campo(pdf, '15 - Código CNES', this.guia.contratadoSolicitante.cnes, x, y, larguraCampo, cinza)
+    x += larguraCampo + distanciaEntreCampos
+    this.campo(pdf, 'CoParticipação', this.guia.beneficiario.coParticipacao ? 'SIM' : 'NÃO', x, y, larguraCampo)
     y += alturaCampo + distanciaEntreCampos
     x = 0
     this.campo(pdf, '16 - Nome do Profissional Solicitante', this.guia.contratadoSolicitante.profissionalSolicitante.nome, x, y, larguraCampoNome, cinza)

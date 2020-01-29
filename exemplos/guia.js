@@ -44,7 +44,8 @@ var beneficiario = new Beneficiario(
     'AMIL' // nome
   ), // convenio
   'AAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA AAAAAAAAAA', // nome,
-  '12345678912345' // numeroCartaoNacionalSaude
+  '12345678912345', // numeroCartaoNacionalSaude
+  false //coparticipacao
 )
 
 var contratadoSolicitante = new ContratadoSolicitante(
