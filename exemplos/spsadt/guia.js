@@ -2,9 +2,9 @@ var fs = require('fs')
 var path = require('path')
 var pathDoArquivoPdf = path.join(__dirname, 'guia.pdf')
 
-var lib = require('../lib/index')
+var lib = require('../../lib')
 
-var Gerador = lib.Gerador
+var GeradorGuiaSPSADT = lib.GeradorGuiaSPSADT
 var Autorizacao = lib.Autorizacao
 var Beneficiario = lib.Beneficiario
 var Convenio = lib.Convenio
@@ -166,5 +166,5 @@ var guia = new Guia(
   opmRealizados
 )
 
-let pdf = new Gerador().gerarPdf(guia)
+let pdf = new GeradorGuiaSPSADT().gerarPdf(guia)
 pdf.pipe(fs.createWriteStream(pathDoArquivoPdf))

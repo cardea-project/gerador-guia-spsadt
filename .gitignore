@@ -63,3 +63,5 @@ typings/
 lib/
 *.png
 .DS_Store
+
+.idea/

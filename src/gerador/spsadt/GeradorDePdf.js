@@ -1,7 +1,7 @@
 import path from 'path'
 import Pdf from 'pdfkit'
 
-const FONTES_DIR = path.join(__dirname, './fontes')
+const FONTES_DIR = path.join(__dirname, '../fontes')
 const TIMES_NEW_ROMAN = path.join(FONTES_DIR, 'Times New Roman.ttf')
 const TIMES_NEW_ROMAN_NEGRITO = path.join(FONTES_DIR, 'Times New Roman Bold.ttf')
 const TIMES_NEW_ROMAN_ITALICO = path.join(FONTES_DIR, 'Times New Roman Italic.ttf')

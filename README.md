@@ -17,7 +17,7 @@ O gerador utiliza o [`pdfkit`](http://pdfkit.org/) para gerar os arquivos PDF e 
 
 ## Como usar
 
-Veja o código de exemplo: [guia.js](exemplos/guia.js).
+Veja o código de exemplo: [guia.js](exemplos/spsadt/guia.js).
 
 Basicamente, deve ser criado um objeto e depois chamar o gerador para ter o PDF. Como uma guia tem muitas informações o objeto possui muitas propriedades.
 
@@ -147,7 +147,7 @@ Uma guia é composta pelos seguintes campos:
 
 ## Exemplo
 
-O arquivo [exemplos/guia.pdf](exemplos/guia.pdf) é um exemplo de guia uma gerada.
+O arquivo [exemplos/guia.pdf](exemplos/spsadt/guia.pdf) é um exemplo de guia uma gerada.
 
 ## Melhorias
 

@@ -1,6 +1,6 @@
 import GeradorDePdf from './GeradorDePdf'
 
-export class Gerador {
+export class GeradorGuiaSPSADT {
   gerarPdf (guia) {
     return new GeradorDePdf(guia).gerar()
   }
