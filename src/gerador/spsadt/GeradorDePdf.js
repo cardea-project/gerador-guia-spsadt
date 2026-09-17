@@ -58,8 +58,9 @@ let larguraCampoIndicacao = 535
 let cinza = '#dedede'
 
 class GeradorDePdf {
-  constructor (guia) {
+  constructor (guia, opcoesDoUsuario = {}) {
     this.guia = guia
+    this.semFundo = Boolean(opcoesDoUsuario.semFundo)
   }
 
   gerar () {
@@ -479,7 +480,7 @@ class GeradorDePdf {
   }
 
   retangulo (pdf, x, y, largura, altura, cor) {
-    cor = cor || '#fff'
+    cor = this.semFundo ? '#fff' : (cor || '#fff')
     pdf
       .rect(
         margemEsquerda + opcoes.ajusteX + x,
