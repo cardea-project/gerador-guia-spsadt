@@ -1,6 +1,6 @@
 {
   "name": "gerador-guia-spsadt",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Gerador de guias SP/SADT e Consulta em PDF seguindo os padrões estipulados pela ANS (Agência Nacional de Saúde).",
   "main": "lib/index.js",
   "files": [
@@ -18,7 +18,12 @@
     "fontes": " run-s fontes:mkdir fontes:cp",
     "build:lib": "babel src -d lib",
     "build": "run-s clean fontes build:lib",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "exemplo:spsadt": "npm run build && node exemplos/spsadt/guia.js",
+    "exemplo:spsadt:sem-fundo": "npm run build && node exemplos/spsadt/guia-sem-fundo.js",
+    "exemplo:consulta": "npm run build && node exemplos/consulta/guia.js",
+    "exemplo:consulta:sem-fundo": "npm run build && node exemplos/consulta/guia-sem-fundo.js",
+    "exemplos": "run-s exemplo:spsadt exemplo:spsadt:sem-fundo exemplo:consulta exemplo:consulta:sem-fundo"
   },
   "repository": {
     "type": "git",

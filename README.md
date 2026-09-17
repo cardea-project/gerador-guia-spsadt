@@ -21,6 +21,30 @@ Veja o código de exemplo: [guia.js](exemplos/spsadt/guia.js).
 
 Basicamente, deve ser criado um objeto e depois chamar o gerador para ter o PDF. Como uma guia tem muitas informações o objeto possui muitas propriedades.
 
+```js
+var pdf = new GeradorGuiaSPSADT().gerarPdf(guia)
+// ou, para a guia de Consulta:
+var pdf = new GeradorGuiaConsulta().gerarPdf(guia)
+
+pdf.pipe(fs.createWriteStream('guia.pdf'))
+```
+
+## Opções
+
+`gerarPdf(guia, opcoes)` aceita um segundo parâmetro opcional. Quando omitido, o layout atual
+(com fundo cinza nos campos) é mantido.
+
+| Opção | Tipo | Padrão | Descrição |
+|---|---|---|---|
+| `semFundo` | `boolean` | `false` | Quando `true`, remove o preenchimento cinza dos campos, tabelas e faixas de seção, deixando tudo com fundo branco. Bordas e textos não são afetados. |
+
+```js
+var pdf = new GeradorGuiaSPSADT().gerarPdf(guia, { semFundo: true })
+```
+
+Veja os exemplos [guia-sem-fundo.js](exemplos/spsadt/guia-sem-fundo.js) (SP/SADT) e
+[guia-sem-fundo.js](exemplos/consulta/guia-sem-fundo.js) (Consulta).
+
 Uma guia é composta pelos seguintes campos:
 
 - guia
